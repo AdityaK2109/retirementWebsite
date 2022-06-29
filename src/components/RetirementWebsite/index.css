@@ -1,0 +1,537 @@
+/* Write your CSS here */
+.page-container {
+  background-color: #e3e3e3;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto';
+}
+
+.navbar-container {
+  width: 70px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  height: 98vh;
+}
+
+.logo-and-search-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.butterfly-logo {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.nav-items-container {
+  list-style-type: none;
+  padding: 0px;
+  padding-top: 40px;
+}
+
+.each-nav-item {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.each-nav-button {
+  cursor: pointer;
+  border: 0px;
+  background-color: transparent;
+  padding: 6px;
+  outline: none;
+}
+
+.active {
+  background-color: #381dcf;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.logout-and-notification-container {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-details-sidebar {
+  background-color: #ecedeb;
+  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 98vh;
+}
+
+.display-picture-and-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 45px;
+  height: 90px;
+  width: 90px;
+  margin-right: 20px;
+}
+
+.name-text {
+  font-family: 'sans-serif';
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.welcome-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: grey;
+}
+
+.sidebar-subheading {
+  font-family: 'sans-serif';
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.account-balance-text {
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  font-family: 600;
+}
+
+.label-text {
+  color: grey;
+  font-size: 12px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.money-text {
+  color: #333333;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.want-to-btn {
+  border: 0px;
+  background-color: #3106bf;
+  outline: none;
+  border-radius: 10px;
+  padding: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.transactions-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.each-transaction {
+  border-bottom: 1px solid #bcbbbf;
+}
+
+.date-text {
+  font-size: 12px;
+  color: #b1b0b5;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 22px;
+}
+
+.transaction-info {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #111111;
+  margin-top: 8px;
+}
+
+.page-content-container {
+  width: 100%;
+  height: 98vh;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  background-color: #ffffff;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.retirement-container {
+  width: 100%;
+  margin-right: 50px;
+  overflow-y: auto;
+}
+
+.retirement-income-heading {
+  font-family: 'sans-serif';
+  color: #970ff2;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.starting-text {
+  font-family: 'sans-serif';
+  color: #333333;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.goals-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.each-goal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-right: 35px;
+  border-bottom: 2px solid #cfabf5;
+  padding-right: 25px;
+}
+
+.digit-text {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.container-label-text {
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #b1b0b5;
+  margin-bottom: 12px;
+}
+
+.contribution-heading {
+  font-family: 'sans-serif';
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.bar-graph-container {
+  width: 95%;
+  max-width: 700px;
+}
+
+.ques-text {
+  font-family: 'sans-serif';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.description-text {
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #b1b0b5;
+  margin-bottom: 12px;
+}
+
+.age-salary-gender-and-pie-chart-container {
+  display: flex;
+  align-items: center;
+}
+
+.age-salary-gender-container {
+  list-style-type: none;
+  padding: 0px;
+  margin-right: 35px;
+}
+
+.each-item {
+  padding: 8px;
+}
+
+hr {
+  color: #c6c5c9;
+}
+
+select {
+  border: 0px;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.label-select-text {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.progress-chart-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.progress-bar-container {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.each-circular-bar {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.retirement-strategy-and-housing-advance-container {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.retirement-strategy-container {
+  background-color: #ecedeb;
+  border-radius: 15px;
+  padding: 18px;
+}
+
+.retirement-strategy-text {
+  font-family: 'sans-serif';
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #333333;
+}
+
+.retirement-strategy-subheading {
+  color: #333333;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-label-text {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 500;
+}
+
+.input-range {
+  height: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+  background: transparent;
+}
+
+.retirement-strategy-sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.update-btn {
+  background-color: #3513cf;
+  padding: 8px;
+  width: 99%;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 7px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.view-help-docs {
+  background-color: transparent;
+  padding: 8px;
+  width: 100%;
+  font-size: 11px;
+  font-weight: 600;
+  border: 0px;
+  color: #970ff2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.housing-advance-container {
+  border-left: 1px solid #aa44ee;
+  padding-left: 18px;
+  margin-top: 30px;
+}
+
+.housing-advance-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b1b0b5;
+  margin-top: 0px;
+}
+
+.span-text {
+  color: #333333;
+}
+
+.limited-time-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b1b0b5;
+}
+
+.learn-more-btn {
+  background-color: transparent;
+  padding: 0px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 0px;
+  color: #970ff2;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.mobile-view-navbar {
+  display: none;
+}
+
+@media (max-width: 756px) {
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: #ffffff;
+    height: 100%;
+  }
+
+  .main-container {
+    width: 100%;
+    overflow: none;
+  }
+
+  .navbar-container {
+    display: none;
+  }
+
+  .mobile-view-navbar {
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    background-color: #ffffff;
+  }
+
+  .nav-items-container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .profile-details-sidebar {
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+  .today-container {
+    background-color: #ecedeb;
+    border-radius: 20px;
+    padding: 22px;
+    margin-top: 15px;
+  }
+
+  .sidebar-subheading {
+    margin-top: 10px;
+  }
+
+  .recent-transactions {
+    background-color: #ecedeb;
+    border-radius: 20px;
+    padding: 22px;
+    margin-top: 15px;
+  }
+
+  .page-content-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .retirement-container {
+    overflow-y: visible;
+  }
+
+  .goals-container {
+    width: 100%;
+  }
+
+  .age-salary-gender-and-pie-chart-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .age-salary-gender-container {
+    width: 100%;
+  }
+
+  .retirement-strategy-container {
+    width: 100%;
+  }
+
+  .retirement-strategy-and-housing-advance-container {
+    width: 100%;
+  }
+}
